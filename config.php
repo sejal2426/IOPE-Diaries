@@ -3,8 +3,8 @@
  $dbhost = "localhost";
  $dbuser = "root";
  $dbpass = "";
- $db = "image_db";
- $conn = new mysqli($dbhost, $dbuser, $dbpass,$db) or die("Connect failed: %s\n". $conn -> error);
+ $db = "event_db";
+ $connection = new mysqli($dbhost, $dbuser, $dbpass,$db) or die("Connect failed: %s\n". $connection -> error);
  
 
    
